@@ -1,0 +1,112 @@
+﻿
+> api@1.0.0 seed
+> ts-node src/seed.ts
+
+node.exe : Error 
+seeding database: Mongo
+oseServerSelectionError
+: connect ECONNREFUSED 
+::1:27017, connect 
+ECONNREFUSED 
+127.0.0.1:27017
+At line:1 char:1
++ & "D:\node 
+js/node.exe" "D:\node j
+s/node_modules/npm/bin/
+npm-cli.js"  ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Error seeding   
+  d...127.0.0.1:270    
+17:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+    at _handleConnectio
+nErrors (D:\Raj Motors\
+raj-motors\node_modules
+\mongoose\lib\connectio
+n.js:1168:11)
+    at NativeConnection
+.openUri (D:\Raj Motors
+\raj-motors\node_module
+s\mongoose\lib\connecti
+on.js:1099:11)
+    at async seedDB 
+(D:\Raj Motors\raj-moto
+rs\apps\api\src\seed.ts
+:84:5) {
+  errorLabelSet: 
+Set(0) {},
+  reason: 
+TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { 
+'localhost:27017' => 
+[ServerDescription] },
+    stale: false,
+    compatible: true,
+    
+heartbeatFrequencyMS: 
+10000,
+    localThresholdMS: 
+15,
+    setName: null,
+    maxElectionId: 
+null,
+    maxSetVersion: 
+null,
+    commonWireVersion: 
+0,
+    logicalSessionTimeo
+utMinutes: null
+  },
+  code: undefined,
+  cause: 
+TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { 
+'localhost:27017' => 
+[ServerDescription] },
+    stale: false,
+    compatible: true,
+    
+heartbeatFrequencyMS: 
+10000,
+    localThresholdMS: 
+15,
+    setName: null,
+    maxElectionId: 
+null,
+    maxSetVersion: 
+null,
+    commonWireVersion: 
+0,
+    logicalSessionTimeo
+utMinutes: null
+  }
+}
+npm error Lifecycle 
+script `seed` failed 
+with error:
+npm error code 1
+npm error path D:\Raj M
+otors\raj-motors\apps\a
+pi
+npm error workspace 
+api@1.0.0
+npm error location 
+D:\Raj Motors\raj-motor
+s\apps\api
+npm error command 
+failed
+npm error command C:\Wi
+ndows\system32\cmd.exe 
+/d /s /c ts-node 
+src/seed.ts

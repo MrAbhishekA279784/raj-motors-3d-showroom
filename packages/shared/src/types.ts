@@ -1,0 +1,1 @@
+export interface Bike { id: string; bike_name: string; price: number; engine: string; mileage: string; top_speed: string; power: string; image: string; model_3d: string; }
